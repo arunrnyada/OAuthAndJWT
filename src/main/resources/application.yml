@@ -1,0 +1,18 @@
+
+server:
+  port: 8090
+
+
+security:
+  oauth2:
+    resource:
+      id: oauth2_id
+spring:
+ datasource:
+  url: jdbc:h2:mem:testdb
+  driverClassName: org.h2.Driver
+  username: sa
+  password:
+ h2:
+  console:
+   enabled: true
